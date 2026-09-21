@@ -187,6 +187,45 @@
             background-color: var(--secondary-hover);
         }
 
+
+        .syllabus-section {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .syllabus-info {
+            min-width: 0;
+        }
+
+        .syllabus-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .syllabus-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .btn-syllabus {
+            background-color: #0f766e;
+            color: #ffffff;
+            padding: 0.55rem 0.9rem;
+        }
+
+        .btn-syllabus:hover {
+            background-color: #115e59;
+        }
+
         /* 底部信息与反馈 */
         .footer-section {
             background-color: var(--card-bg);
@@ -257,6 +296,7 @@
             }
             .hero-section,
             .chapters-section,
+            .syllabus-section,
             .footer-section {
                 padding: 1.25rem;
             }
@@ -289,6 +329,16 @@
             在此基础上，本书深度贴合科研实际，全面展示了AI工具在选题凝练、文献阅读、方案设计、论文写作与修改等学术研究全流程中的赋能作用，并最终落脚于科研伦理，深刻剖析了算法内生缺陷、数据隐私黑洞及知识产权归属等潜在风险，强调研究者在享受技术红利的同时，必须严守学术诚信、坚守人工主导与真实性底线。
         </div>
     </header>
+
+
+    <!-- 课程教学大纲下载区 -->
+    <section class="syllabus-section">
+        <div class="syllabus-info">
+            <div class="syllabus-title">课程教学大纲</div>
+            <div class="syllabus-desc">下载《生成式人工智能与科研素养》课程教学大纲。</div>
+        </div>
+        <a href="课程教学大纲.pdf" class="btn btn-syllabus">📄 课程教学大纲下载</a>
+    </section>
 
     <!-- 章节资源下载区 -->
     <section class="chapters-section">
